@@ -55,6 +55,6 @@ while True:
     with open('arrests.json', 'w') as f:
         json.dump(arrests, f)
     
-    print('scraping')
+    print('Done. waiting 3600.')
     time.sleep(3600)
 
